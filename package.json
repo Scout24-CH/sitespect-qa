@@ -1,5 +1,5 @@
 {
-  "name": "sitespect-extension",
+  "name": "sitespect-qa",
   "version": "1.2.2",
   "private": true,
   "dependencies": {
