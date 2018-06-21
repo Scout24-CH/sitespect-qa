@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "SiteSpect QA",
   "description": "This extension allows the user to easy switch and QA experiment variations",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "permissions": [
     "<all_urls>",
     "tabs",
