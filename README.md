@@ -10,3 +10,6 @@ Chrome extension to simplify QA process while working with [SiteSpect](https://w
 
 ## Installation
 - [Chrome Web Store](https://chrome.google.com/webstore/detail/sitespect-qa/plenaoidopfljcbahkglkgcliijjfhnb)
+
+## License
+- [MIT](LICENSE)
