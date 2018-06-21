@@ -1,10 +1,10 @@
 {
   "name": "sitespect-qa",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "private": true,
   "author": {
-    "name" : "Matthias Jäggli",
-    "email" : "matthias.jaeggli@scout24.ch"
+    "name": "Matthias Jäggli",
+    "email": "matthias.jaeggli@scout24.ch"
   },
   "dependencies": {
     "@material-ui/core": "^1.0.0",
@@ -17,9 +17,9 @@
     "styled-components": "^3.2.5",
     "zip-folder": "^1.0.0"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/Scout24-CH/sitespect-qa"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Scout24-CH/sitespect-qa"
   },
   "scripts": {
     "start": "react-scripts start",
