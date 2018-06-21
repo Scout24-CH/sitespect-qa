@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "SiteSpect QA",
+  "description": "This extension allows the user to easy switch and QA experiment variations",
+  "version": "1.2.2",
+  "permissions": [
+    "<all_urls>",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "devtools_page": "devtools.html",
+  "icons": {
+    "48": "icon-48.png",
+    "128": "icon-128.png",
+    "512": "icon-512.png"
+  },
+  "browser_action": {
+    "default_icon": "icon-512.png",
+    "default_title": "SiteSpect QA",
+    "default_popup": "popup.html"
+  }
+}
