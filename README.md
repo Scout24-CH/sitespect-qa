@@ -7,7 +7,7 @@ Chrome extension to simplify QA process while working with [SiteSpect](https://w
 - One click variation switching in experiements and personalization
 - Listing all counted tracking events
 - Test draft variations
-- While using the extension, no stats are generated and no events are recorded. Your stats stay fine.
+- The stats stay fine. While using the extension, no stats are generated and no events are recorded. 
 - DevTools Extension
 
 ![Screenshot](public/screenshot-3.png)
