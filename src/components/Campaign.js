@@ -52,7 +52,8 @@ class Campaign extends PureComponent {
   async componentDidMount () {
     if (this.state.variationGroups) { return }
     const { apiClient, site, campaign } = this.props
-    let variationGroups = await apiClient.getVariationGroups(site.ID, campaign.ID)
+    let variationGroups = await apiClient.getVariationGroups(site.ID, campaign.ID) || []
+    variationGroups = variationGroups.filter(variationGroup => variationGroup.Status === 'Active')
     const variationIds = new Set()
 
     variationGroups.forEach(group => {
