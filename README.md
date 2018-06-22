@@ -16,10 +16,10 @@ Chrome extension to simplify QA process while working with [SiteSpect](https://w
 ![Screenshot](public/screenshot-3.png)
 
 ## Extension permissions 
-This extension needs to be able to access all URLs because of all individual website URLs and custom SiteSpect admin URL, which are not known during packing the extension. Not satisfied with the 'Read and change all your data on the websites that you visit'? Build your own one in some simple steps
+This extension needs to be able to access all URLs because of all individual website URLs and custom SiteSpect admin URL, which are not known during packing the extension. Not satisfied with the 'Read and change all your data on the websites that you visit'? Build your own one in some simple steps:
 
 1. Clone (or fork) this repository
-1. Open the Terminal, navigate to the repository directory and run `npm i`
+1. Open the Terminal, navigate to the repository directory and run `npm i` needs [node](https://nodejs.org/en/download/) installed
 1. Open the [public/manifest.json](public/manifest.json) and make two changes:
    - `"name"`  
      change the name field to something unique, like including your company
@@ -31,6 +31,7 @@ This extension needs to be able to access all URLs because of all individual web
 1. In the publish form at the **Visibility options** (very bottom) select the **Unlisted** option to make it invisible for public users. You then can share the link within your company.
 1. Hit **Publish** - done. (It may take Google up to one hour, to publish).
 
+NOTE: for now only macOS and Linux are supported, for building.
 
 ### Example changes for your manifest.json
 Note the wildcards `*` in the URLs.
