@@ -16,7 +16,7 @@ Chrome extension to simplify QA process while working with [SiteSpect](https://w
 ![Screenshot](public/screenshot-3.png)
 
 ## Extension permissions 
-This extensions need to be able to access all URLs because of individual URLs, including custom SiteSpect admin. Not satisfied with the 'Read and change all your data on the websites that you visit'? Build your own one in some simple steps
+This extension needs to be able to access all URLs because of all individual URLs, including custom SiteSpect admin, which are not known during packing the extension. Not satisfied with the 'Read and change all your data on the websites that you visit'? Build your own one in some simple steps
 
 1. Clone (or fork) this repository
 1. Open the Terminal, navigate to the repository directory and run `npm i`
