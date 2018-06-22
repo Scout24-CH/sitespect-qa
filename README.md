@@ -10,10 +10,10 @@ Chrome extension to simplify QA process while working with [SiteSpect](https://w
 - The stats stay fine. While using the extension, no stats are generated and no events are recorded. 
 - DevTools Extension
 
-![Screenshot](public/screenshot-3.png)
-
 ## Installation
 - [Chrome Web Store](https://chrome.google.com/webstore/detail/sitespect-qa/plenaoidopfljcbahkglkgcliijjfhnb)
+
+![Screenshot](public/screenshot-3.png)
 
 ## Extension permissions 
 The extensions need to be able to access all URLs because of individual URLs, including custom SiteSpect admin. Not satisfied with the 'Read and change all your data on the websites that you visit'? Build your own one in some simple steps
