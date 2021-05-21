@@ -1,5 +1,5 @@
 ## SiteSpect QA
-![GitHub tag](https://img.shields.io/github/package-json/v/Scout24-CH/sitespect-qa.svg)
+![GitHub tag](https://img.shields.io/badge/version-1.2.4-green)
 
 Chrome extension to simplify QA process while working with [SiteSpect](https://www.sitespect.com/). Awesome for fast variation switching in preview sessions without having to switch tabs or copying preview links.
 
